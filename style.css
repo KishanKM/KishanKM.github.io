@@ -1,0 +1,193 @@
+.header
+{
+	width:100%;
+	float:left;
+}
+
+body
+{
+	margin:0px;
+}
+
+.logo
+{
+	width:40%;
+	float:left;
+}
+
+.logo img
+{
+	padding:10px;
+}
+
+.content ul li
+{
+	list-style:none;
+	float:left;
+	margin-left:51px;
+}
+
+.content img
+{
+	margin-left:22px;
+}
+
+.content
+{
+	width:100%;
+}
+
+.left
+{
+	width:10%;	
+	float:left;
+}
+
+.left img
+{
+	margin-top:48px;
+}
+
+.right
+{
+	float:right;
+	width:10%;
+}
+
+.right img
+{
+	margin-top:51px;
+}
+
+.main-content
+{
+	width:80%;
+	text-align:center;
+	color:#263238;
+}
+
+.main-content h1
+{
+	font-size:45pt;
+	margin-top:0;
+	margin-left:20%;
+}
+
+.main-content p
+{
+	font-size:19pt;
+	margin-left:21%;
+}
+
+button
+{
+	color:#fff;
+	background:#455a64;
+	border-color:#455a64;
+	box-shadow:none;
+	border:none;
+	padding:20px;
+	margin-left:18%;
+	border-radius:5px;
+}
+
+.bottom-content
+{
+	width:80%;
+}
+
+.image img
+{
+	margin-left:24%;
+}
+
+.os
+{
+	width:100%;
+	background:#F5F5F5;
+}
+
+.os-heading h1, p
+{
+	margin-left:31%;
+}
+
+.os-heading img
+{
+	margin-left:28%;
+}
+
+.phones
+{
+	float:left;
+	width:100%;
+	background:#F5F5F5;
+}
+
+.phone1
+{
+	width:50%;
+	float:left;
+}
+
+.phone1 img
+{
+	float:left;
+	width:50%;
+	margin-left:13%;
+}
+
+.phone-content
+{
+	width:50%;
+	float:right;	
+}
+
+.phone-content
+{
+	font-size:16pt;
+}
+
+.phone-paragraph
+{
+	margin-left:-23%;
+}
+
+.phone-header
+{
+	margin-left:15%;
+}
+
+.footer
+{
+	width:100%;
+}
+
+.internet
+{
+	background:#FFFFFF;
+	font-size:16pt;
+	margin-left:-34%;
+	margin-top:30%;
+	margin-bottom:7%;
+}
+
+.fotters
+{
+	width:100%;
+	background:#ECEFF1;
+}
+
+.fotter-left
+{
+	background:#ECEFF1;
+	width:62%;
+	float:left;
+}
+
+.fotter-right
+{
+	float:right;
+	background:#ECEFF1;
+	width:38%;
+}
