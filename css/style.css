@@ -1,0 +1,48 @@
+.wrapper {
+    display: none;
+}
+
+.main-image {
+    background-image: url(../img/ilya-pavlov-87438-unsplash.jpg);
+    min-height: 400px;
+    background-position: center center;
+    position: relative;
+}
+
+.hdevelopers {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.footer {
+    background: #23334B!important;
+    color: white!important;
+}
+
+.loader {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    z-index: 999999;
+}
+
+@media only screen and (max-width: 600px) {
+    .hdevelopers {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    span#typed {
+        font-size: 20px!important;
+    }
+
+    .loader {
+        position: absolute;
+        top: 43%;
+        left: 45%;
+        z-index: 999999;
+    }
+    
+}
