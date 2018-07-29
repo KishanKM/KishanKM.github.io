@@ -15,6 +15,8 @@
     <link href="assets/demos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     <script>
         hljs.initHighlightingOnLoad();
     </script>
@@ -22,6 +24,8 @@
     <style>
         span#typed {
             font-size: 30px;
+            color: #ff5252;
+            font-family: 'Lato', sans-serif;
         }
     </style>
 </head>
@@ -184,10 +188,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            setTimeout(function(){
-                $('.loader').hide();
-                $('.wrapper').fadeIn();
-            }, 2000);
+            $('.loader').hide();
+            $('.wrapper').fadeIn();
             $('.button-collapse').sideNav();
         });
     </script>
