@@ -37,7 +37,7 @@
                     <ul class="pull-right">
                         <li><a href="#!">Home</a></li>
                         <li><a href="#!">About</a></li>
-                        <li><a href="#!">Contact</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,7 +49,7 @@
         <div class="dropdown-content">
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="contact-us.html">Contact</a>
         </div>
     </div>
 
@@ -59,39 +59,72 @@
                 <ul class="pull-right">
                     <li><a href="#!">Home</a></li>
                     <li><a href="#!">About</a></li>
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="second-part container-fluid">
+
+    <div class="container-fluid contact-us">
         <div class="row">
-            <div class="main-text col-xs-12">
-                <h1>UI/UX & Graphic Designer</h1>
-                <p class="text-center">I am a Graphic & Web Designer based in India, specializing in User Interface Design and Development.</p>
+            <div class="container">
+                <div class="contact-us-content">
+                    <div class="col-md-6">
+                        <h1>Contact Info :</h1>
+                        <p class="grey-text">To give give beginning divide, cattle. Give moving won't, there the abundantly she'd she'd brought air upon. Light hath subdue. Life days creature upon  first heaven gathering dry.</p>
+                        <p><strong>Address: </strong> 10111 Santa Monica Boulevard, LA</p>
+                        <p><strong>Phone: </strong> +44 987 065 908</p>
+                        <p><strong>Email: </strong> info@Example.com</p>
+                        <p><strong>Fax: </strong> +44 987 065 909</p>
+                    </div>
+                    <div class="contact-us-form col-md-6">
+                        <div class="row">
+                            <form action="" method="post">
+                                <div class="col-md-6">
+                                    <div class="name-validation">
+                                        <p>Please Enter First Name</p>
+                                    </div>
+                                    <input type="text" name="" id="" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- <div class="name-validation">
+                                        <p>Please Enter Email</p>
+                                    </div> -->
+                                    <input type="email" name="" id="" placeholder="Your Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="name-validation">
+                                        <p>Please Enter Title</p>
+                                    </div>
+                                    <input type="text" name="" id="" placeholder="Your Title">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="name-validation">
+                                        <p>Please Enter Message</p>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <button class="send-message">SEND MESSAGE</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="maps">
+                    
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 col-xs-12 box-color-1"></div>
-            <div class="col-md-3 col-xs-12 box-color-2"></div>
-            <div class="col-md-3 col-xs-12 box-color-3"></div>
-            <div class="col-md-3 col-xs-12 box-color-4"></div>
-            
-            <div class="col-md-3 col-xs-12 box-color-2-1"></div>
-            <div class="col-md-3 col-xs-12 box-color-2-2"></div>
-            <div class="col-md-3 col-xs-12 box-color-2-3"></div>
-            <div class="col-md-3 col-xs-12 box-color-2-4"></div>
-            
-            <div class="col-md-3 col-xs-12 box-color-3-1"></div>
-            <div class="col-md-3 col-xs-12 box-color-3-2"></div>
-            <div class="col-md-3 col-xs-12 box-color-3-3"></div>
-            <div class="col-md-3 col-xs-12 box-color-3-4"></div>
-        </div>
-    </div>
 
     <div class="footer container-fluid">
         <div class="row">
@@ -134,8 +167,9 @@
     </div>
 
     <script>
-        $(document).ready(function(){
-            $(".dropdown").click(function(){
+        $(document).ready(() =>{
+
+            $(".dropdown").click(() =>{
                 if ($('.dropdown-content').hasClass('down')) {
                     $('.dropdown-content').slideUp();
                     $('.dropdown-content').removeClass('down');
@@ -147,12 +181,11 @@
                 }
             });
 
-            $("div[class*='box-color']").hover(function(){
-                var div = $(this)[0];
-                div.innerHTML = '<i class="fa fa-eye" style="display:block"></i>';
-                }, function() {
-                $("i.fa.fa-eye").hide();
-            });
+            $('.send-message').click((e) => {
+                e.preventDefault();
+                $('.name-validation').fadeIn();
+            })
+
         });
     </script>
 </body>
