@@ -1,48 +1,175 @@
-.wrapper {
-    display: none;
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato';
 }
 
-.main-image {
-    background-image: url(../img/programmer-wallpaper-17582.png);
-    min-height: 536px;
-    background-position: center center;
+.header {
+    background: #ffffff;
+}
+
+.header-content {
+    padding: 30px;
+    min-height: 80px;
+}
+
+.header-content ul li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.header-content ul li:hover {
+    color: #21bfb9;
+    cursor: pointer;
+}
+
+.second-part {
+    background: #f6f6f6;
+    min-height: 280px;
     position: relative;
 }
 
-.hdevelopers {
+.main-text {
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 35%;
+}
+
+.main-text h1, p {
+    font-weight: bold;
+}
+
+.box-color-1 {
+    background: #838383;
+    height: 250px;
+}
+.box-color-2 {
+    background: #dddddd;
+    height: 250px;
+}
+.box-color-3 {
+    background: #838383;
+    height: 250px;
+}
+.box-color-4 {
+    background: #dddddd;
+    height: 250px;
+}
+
+.box-color-2-1 {
+    background: #dddddd;
+    height: 250px;
+}
+
+.box-color-2-2 {
+    background: #21bfb9;
+    height: 250px;
+}
+
+.box-color-2-3 {
+    background: #dddddd;
+    height: 250px;
+}
+
+.box-color-2-4 {
+    background: #838383;
+    height: 250px;
+}
+
+.box-color-3-1 {
+    background: #838383;
+    height: 250px;
+}
+
+.box-color-3-2 {
+    background: #dddddd;
+    height: 250px;
+}
+
+.box-color-3-3 {
+    background: #838383;
+    height: 250px;
+}
+
+.box-color-3-4 {
+    background: #dddddd;
+    height: 250px;
 }
 
 .footer {
-    background: #23334B!important;
-    color: white!important;
+    background: #141414;
+    min-height: 250px;
+    color: white;
+    font-family: 'Nunito Sans';
 }
 
-.loader {
-    position: absolute;
-    top: 43%;
-    left: 48%;
-    z-index: 999999;
+.mg-top-60 {
+    margin-top: 60px;
+}
+
+.mg-top-35 {
+    margin-top: 35px;
+}
+
+.footer-content .col-md-1 ul li, .footer-content .col-md-4 ul li{
+    list-style: none;
+}
+
+.footer-content .col-md-1 ul li a, .footer-content .col-md-4 ul li a {
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
-    .hdevelopers {
-        position: absolute;
-        top: 30%;
-        left: 25%;
+    .main-text {
+        left: 0%;
+        text-align: center;
     }
 
-    span#typed {
-        font-size: 20px!important;
+    .main-text h1 {
+        font-size: 28px;
     }
 
-    .loader {
-        position: absolute;
-        top: 43%;
-        left: 45%;
-        z-index: 999999;
+    .footer-content .col-md-1 ul {
+        padding: 0px;
     }
-    
+
+    .footer-content .col-md-4 ul {
+        padding: 0px;
+        float: left!important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main-text {
+        left: 0%;
+        text-align: center;
+    }
+
+    .main-text h1 {
+        font-size: 28px;
+    }
+
+    .footer-content .col-md-1 ul {
+        padding: 0px;
+    }
+
+    .footer-content .col-md-4 ul {
+        padding: 0px;
+        float: left!important;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-section-1 {
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-section-1 {
+        clear: none;
+    }
 }
