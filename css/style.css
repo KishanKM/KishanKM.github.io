@@ -122,6 +122,14 @@ body {
     color: white;
 }
 
+div[class*='box-color'] {
+    transition: ease 1s;
+}
+
+div[class*='box-color']:hover {
+    background: #21bfb9;
+}
+
 @media only screen and (max-width: 600px) {
     .main-text {
         left: 0%;
